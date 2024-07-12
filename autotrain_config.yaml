@@ -1,0 +1,8 @@
+task: text-classification
+model: MoritzLaurer/roberta-large-zeroshot-v2.0-c
+train:
+  epochs: 3
+  learning_rate: 2e-5
+  batch_size: 4
+dataset:
+  train: C:/Users/admin/Desktop/SQ/try.csv
